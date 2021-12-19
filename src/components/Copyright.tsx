@@ -1,7 +1,8 @@
 import Typography from "@mui/material/Typography";
 import MuiLink from "@mui/material/Link";
+import { FunctionComponent } from "react";
 
-export default function Copyright() {
+const Copyright: FunctionComponent = () => {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {"Copyright © "}
@@ -11,4 +12,7 @@ export default function Copyright() {
       {new Date().getFullYear()}.
     </Typography>
   );
-}
+};
+
+
+export default Copyright;
