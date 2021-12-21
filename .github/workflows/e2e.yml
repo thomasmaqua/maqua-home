@@ -1,10 +1,9 @@
-name: E2E on Chrome
-on: [push]
+name: E2E Tests on Chrome
+on: push
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
-    # let's make sure our tests pass on Chrome browser
-    name: E2E on Chrome
+    name: E2E Tests on Chrome
     steps:
       - uses: actions/checkout@v2
       - uses: cypress-io/github-action@v2

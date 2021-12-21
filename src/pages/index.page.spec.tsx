@@ -3,7 +3,7 @@
  */
 
 import { render, screen } from "@testing-library/react";
-import Index from "./index";
+import Index from "./index.page";
 
 describe("Index", () => {
   it("renders a headline with 'Under Construction'", () => {
